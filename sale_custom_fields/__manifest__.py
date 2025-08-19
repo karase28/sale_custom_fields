@@ -7,7 +7,7 @@
     "category": "Sales",
     "summary": "Dodaje nr obcy, nr projektu i datę życzoną klienta do zamówień sprzedaży",
     "data": [
-        "views/sale_order_views.xml",
+        "views/sale_order_view.xml",
     ],
     "installable": True,
     "application": False,
