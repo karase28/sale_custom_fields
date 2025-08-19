@@ -9,7 +9,7 @@
       <xpath expr="//field[@name='name']" position="after">
         <field name="client_order_ref"/>
         <field name="client_project_number"/>
-        <field name="requested_date"/>
+        <field name="client_requested_date"/>
       </xpath>
     </field>
   </record>
