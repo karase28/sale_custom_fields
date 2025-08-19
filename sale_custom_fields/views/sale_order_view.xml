@@ -1,0 +1,30 @@
+<odoo>
+  <!-- Formularz zamówienia -->
+  <record id="view_order_form_inherit_custom" model="ir.ui.view">
+    <field name="name">sale.order.form.inherit.custom</field>
+    <field name="model">sale.order</field>
+    <field name="inherit_id" ref="sale.view_order_form"/>
+    <field name="arch" type="xml">
+      <!-- pod polem 'name' (numer zamówienia) -->
+      <xpath expr="//field[@name='name']" position="after">
+        <field name="client_order_ref"/>
+        <field name="client_project_number"/>
+        <field name="requested_date"/>
+      </xpath>
+    </field>
+  </record>
+
+  <!-- Lista zamówień -->
+  <record id="view_order_tree_inherit_custom" model="ir.ui.view">
+    <field name="name">sale.order.tree.inherit.custom</field>
+    <field name="model">sale.order</field>
+    <field name="inherit_id" ref="sale.view_quotation_tree"/>
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='name']" position="after">
+        <field name="client_order_ref"/>
+        <field name="client_project_number"/>
+        <field name="client_requested_date"/>
+      </xpath>
+    </field>
+  </record>
+</odoo>
