@@ -7,7 +7,7 @@
     <field name="arch" type="xml">
       <!-- pod polem 'name' (numer zamówienia) -->
       <xpath expr="//field[@name='name']" position="after">
-        <field name="client_order_ref" widget="statinfo" string="Nr zamówienia klienta"//>
+        <field name="client_order_ref" widget="statinfo" string="Nr zamówienia klienta"/>
         <field name="client_project_number" string="Nr projektu klienta"/>
         <field name="client_requested_date" string="Data żądana przez klienta"/>
       </xpath>
