@@ -7,9 +7,11 @@
     <field name="arch" type="xml">
       <!-- pod polem 'name' (numer zamówienia) -->
       <xpath expr="//field[@name='name']" position="after">
-        <field name="client_order_ref"/>
-        <field name="client_project_number"/>
-        <field name="client_requested_date"/>
+        <group string="Dane klienta" colspan="4" style="font-size:12px;">
+          <field name="client_order_ref" string="Nr referencyjny klienta"/>
+          <field name="client_project_number" string="Nr projektu klienta"/>
+          <field name="client_requested_date" string="Data wymagana przez klienta"/>
+        </group>
       </xpath>
     </field>
   </record>
@@ -21,9 +23,9 @@
     <field name="inherit_id" ref="sale.view_quotation_tree"/>
     <field name="arch" type="xml">
       <xpath expr="//field[@name='name']" position="after">
-        <field name="client_order_ref"/>
-        <field name="client_project_number"/>
-        <field name="client_requested_date"/>
+        <field name="client_order_ref" string="Nr ref. klienta"/>
+        <field name="client_project_number" string="Nr proj. klienta"/>
+        <field name="client_requested_date" string="Data wym klienta"/>
       </xpath>
     </field>
   </record>
