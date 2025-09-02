@@ -7,10 +7,10 @@
     <field name="arch" type="xml">
       <!-- pod polem 'name' (numer zamówienia) -->
       <xpath expr="//field[@name='name']" position="after">
-        <group string="Dane klienta" colspan="4" style="font-size:12px;">
+        <group string="Dane zamówienia" colspan="4" style="font-size:12px;">
           <field name="client_order_ref" string="Nr referencyjny klienta"/>
           <field name="client_project_number" string="Nr projektu klienta"/>
-          <field name="client_requested_date" string="Data wymagana przez klienta"/>
+          <field name="client_requested_date" string="Data wym. klienta"/>
         </group>
       </xpath>
     </field>
