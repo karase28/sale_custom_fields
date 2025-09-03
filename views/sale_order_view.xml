@@ -40,7 +40,7 @@
                 type="object"
                 string="Utwórz WZ"
                 class="btn btn-primary"
-                t-if="record.state.raw_value == 'sale'"/>
+                attrs="{'invisible': [('state', '!=', 'sale')]}"/>
       </xpath>
     </field>
   </record>
