@@ -39,8 +39,8 @@
         <button name="action_create_delivery"
                 type="object"
                 string="Utwórz WZ"
-                class="btn-primary"
-                attrs="{'invisible': [('state', '!=', 'sale')]}"/>
+                class="btn btn-primary"
+                t-if="record.state.raw_value == 'sale'"/>
       </xpath>
     </field>
   </record>
