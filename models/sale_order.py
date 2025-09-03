@@ -21,4 +21,21 @@ class SaleOrder(models.Model):
     def write(self, vals):
         if "client_requested_date" in vals and vals["client_requested_date"]:
             vals["commitment_date"] = vals["client_requested_date"]
-        return super().write(vals) 
+        return super().write(vals)
+    
+    def action_create_delivery(self):
+        for order in self:
+            order._create_delivery()
+
+    def _create_delivery(self):
+        picking = self._create_delivery_picking()
+        return picking
+
+    def _create_delivery_picking(self):
+        return self._create_picking()
+    
+    def action_confirm(self):
+        # Nadpisujemy, by NIE tworzyć automatycznie WZ
+        res = super(SaleOrder, self).action_confirm()
+        # Usuwamy automatyczne tworzenie pickingu
+        return res
