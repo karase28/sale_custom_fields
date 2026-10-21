@@ -1,0 +1,448 @@
+cd..
+cd
+cd /etc/odoo18
+source ~/odoo-env/bin/activate
+./odoo-bin -c /etc/odoo18.conf
+cd /opt/odoo18/
+./odoo-bin -c /etc/odoo18.conf
+sudo lsof -i :8069
+sudo kill -9 32356
+sudo lsof -i :8069
+sudo kill -9 56076
+sudo lsof -i :8069
+sudo systemctl stop odoo18
+sudo lsof -i :8069
+./odoo-bin -c /etc/odoo18.conf
+sudo rm -fr ~/custom_wydruk_wz/ ;
+sudo rm -fr /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+git clone git@github.com:karase28/custom_wydruk_wz.git ;
+sudo cp -r custom_wydruk_wz /opt/odoo18/odoo/addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo chmod -R 775 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo systemctl restart odoo18 
+git clone git@github.com:karase28/custom_wydruk_wz.git ;
+deactivate
+sudo rm -fr ~/custom_wydruk_wz/
+sudo rm -fr ~/custom_wydruk_wz/ ;
+sudo rm -fr /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+git clone git@github.com:karase28/custom_wydruk_wz.git ;
+sudo cp -r custom_wydruk_wz /opt/odoo18/odoo/addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo chmod -R 775 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr /opt/odoo18/odoo/addons/custom_wydruk_wz/
+git clone git@github.com:karase28/custom_wydruk_wz.git
+sudo git clone git@github.com:karase28/custom_wydruk_wz.git
+git clone git@github.com:karase28/custom_wydruk_wz.git ;
+sudo cp -r custom_wydruk_wz /opt/odoo18/odoo/addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo chmod -R 775 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo systemctl restart odoo18 
+cd /opt/odoo18/custom_addons/oca/hr/custom_wydruk_wz
+cd /opt/odoo18/custom_addons/oca/hr/
+ls -l
+cd
+sudo find / -type d -name "custom_wydruk_wz" 2>/dev/null
+sudo updatedb
+locate custom_wydruk_wz
+sudo updatedb
+locate custom_wydruk_wz
+find / -type d -iname "custom_wydruk_wz" 2>/dev/null
+find / -type d -iname "custom_picking_fields" 2>/dev/null
+git clone git@github.com:karase28/custom_wydruk_wz.git
+sudo cp -r custom_wydruk_wz /opt/odoo18/odoo/addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo chmod -R 775 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo systemctl restart odoo18
+sudo rm -fr ~/custom_wydruk_wz/
+sudo rm -fr /opt/odoo18/odoo/addons/custom_wydruk_wz/
+sudo systemctl stop odoo18
+sudo systemctl start odoo18
+tail -n 100 /ścieżka/do/odoo.log
+tail -n 100 /opt/odoo18/odoo.log
+tail -n 100 /opt/odoo18/odoo/odoo.log
+git clone git@github.com:karase28/custom_wydruk_wz.git ;
+sudo cp -r custom_wydruk_wz /opt/odoo18/odoo/addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo chmod -R 775 /opt/odoo18/odoo/addons/custom_wydruk_wz/ ;
+sudo systemctl restart odoo18
+sudo systemctl stop odoo18
+sudo systemctl start odoo18
+sudo rm -fr ~/custom_wydruk_wz/ ;
+sudo rm -fr /opt/odoo18/odoo/addons/custom_wydruk_wz/
+git clone git@github.com:karase28/custom_delivery_report.git
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/
+sudo chmod -R 775 /opt/odoo18/custom_addons/
+sudo systemctl restart odoo18
+sudo nano /etc/odoo18.conf
+sudo systemctl restart odoo18
+sudo systemctl stop odoo18
+sudo systemctl start odoo18
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo nano /opt/odoo18/addons/web/views/layouts.xml
+cd /opt/odoo18/addons/web/views
+ls -l
+cd /opt/odoo18/odoo/addons/web/views
+cd
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr /opt/odoo18/odoo/addons/sale_custom/
+sudo rm -fr /opt/odoo18/odoo/addons/sale_custom_fields/
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo systemctl stop odoo18
+sudo systemctl start odoo18
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/custom_delivery_report/ ;
+sudo rm -fr /opt/odoo18/custom_addons/custom_delivery_report/ ;
+git clone git@github.com:karase28/custom_delivery_report.git ;
+sudo cp -r custom_delivery_report /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+journalctl -u odoo -n 200 --no-pager | grep "2025-08-31 11:53"
+tail -f /var/log/odoo/odoo-server.log
+sudo nano /etc/odoo18/odoo.conf
+sudo nano /etc/odoo18.conf
+tail -f /var/log/odoo18/odoo-server.log
+tail -f /var/log/odoo18/odoo.log
+grep "2025-08-31 11:53" /var/log/odoo18/odoo.log -A 20
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/sale_custom_fields/ ;
+sudo rm -fr /opt/odoo18/custom_addons/sale_custom_fields/ ;
+git clone git@github.com:karase28/sale_custom_fields.git ;
+sudo cp -r sale_custom_fields /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18
+sudo systemctl stop odoo18
+sudo systemctl start odoo18
+sudo rm -fr ~/report_inline_preview/ ;
+sudo rm -fr /opt/odoo18/custom_addons/report_inline_preview/ ;
+git clone git@github.com:karase28/report_inline_preview.git ;
+sudo cp -r report_inline_preview /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/report_inline_preview/ ;
+sudo rm -fr /opt/odoo18/custom_addons/report_inline_preview/ ;
+git clone git@github.com:karase28/report_inline_preview.git ;
+sudo cp -r report_inline_preview /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/report_inline_preview/ ;
+sudo rm -fr /opt/odoo18/custom_addons/report_inline_preview/ ;
+git clone git@github.com:karase28/report_inline_preview.git ;
+sudo cp -r report_inline_preview /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/report_inline_preview/ ;
+sudo rm -fr /opt/odoo18/custom_addons/report_inline_preview/ ;
+git clone git@github.com:karase28/report_inline_preview.git ;
+sudo cp -r report_inline_preview /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/report_inline_preview/ ;
+sudo rm -fr /opt/odoo18/custom_addons/report_inline_preview/ ;
+git clone git@github.com:karase28/report_inline_preview.git ;
+sudo cp -r report_inline_preview /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo systemctl stop odoo18
+sudo systemctl start odoo18
+./odoo-bin -c /etc/odoo/odoo.conf -d twojabaza --dev all -u base
+cd /opt/odoo18/
+./odoo-bin -c /etc/odoo/odoo.conf -d twojabaza --dev all -u base
+sudo systemctl restart odoo18
+sudo systemctl stop odoo18
+sudo systemctl start odoo18
+sudo rm -fr ~/wz_pdf_preview/ ;
+sudo rm -fr /opt/odoo18/custom_addons/wz_pdf_preview/ ;
+git clone git@github.com:karase28/wz_pdf_preview.git ;
+sudo cp -r wz_pdf_preview /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/wz_pdf_preview/ ;
+sudo rm -fr /opt/odoo18/custom_addons/wz_pdf_preview/ ;
+git clone git@github.com:karase28/wz_pdf_preview.git ;
+sudo cp -r wz_pdf_preview /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18
+cd
+sudo rm -fr ~/wz_pdf_preview/ ;
+sudo rm -fr /opt/odoo18/custom_addons/wz_pdf_preview/ ;
+git clone git@github.com:karase28/wz_pdf_preview.git ;
+sudo cp -r wz_pdf_preview /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18
+sudo rm -fr /opt/odoo18/custom_addons/wz_pdf_preview/
+sudo rm -fr ~/wz_pdf_preview/
+sudo rm -fr ~/wz_pdf_preview/ ;
+sudo rm -fr /opt/odoo18/custom_addons/wz_pdf_preview/ ;
+git clone git@github.com:karase28/wz_pdf_preview.git ;
+sudo cp -r wz_pdf_preview /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo systemctl stop odoo18
+sudo systemctl start odoo18
+sudo rm -fr ~/wz_pdf_preview/
+sudo rm -fr /opt/odoo18/custom_addons/wz_pdf_preview/
+cd /opt/odoo18/
+./odoo-bin -c /ścieżka/do/odoo.conf -d nazwa_bazy --dev=all
+pip install "lxml[html_clean]"
+pip install lxml_html_clean
+pip3 install "lxml[html_clean]"
+source /ścieżka/do/venv/bin/activate
+CD
+cd
+source /ścieżka/do/venv/bin/activate
+source /venv/bin/activate
+cd /opt/odoo18/
+source venv/bin/activate
+sudo nano /etc/odoo18.conf
+cd
+sudo pip3 install "lxml[html_clean]"
+sudo -H pip3 install "lxml[html_clean]"
+cd /opt/odoo18/venv
+cd ~/pobrane?
+cd ~/pobrane/
+cd: /home/jarek/pobrane/
+cd /home/jarek/pobrane/
+cd /home/jarek/Pobrane
+python3 create_odoo_qr_module.py
+sudo rm -fr ~/odoo_qr_warehouse_mrp/ ;
+sudo rm -fr /opt/odoo18/custom_addons/odoo_qr_warehouse_mrp/ ;
+git clone git@github.com:karase28/odoo_qr_warehouse_mrp.git ;
+sudo cp -r odoo_qr_warehouse_mrp /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+ip
+ip ioam
+ip address
+sudo nano /etc/fstab
+sudo mount -a
+sudo systemctl  daemon-reload
+ip
+ip -a
+ip address
+jarek@odoo-se
+
+
+sudo systemctl stop odoo18
+sudo rm -fr ~/mrp_qr_time_tracking/ ;
+sudo rm -fr /opt/odoo18/custom_addons/mrp_qr_time_tracking/ ;
+git clone git@github.com:karase28/mrp_qr_time_tracking.git ;
+sudo cp -r mrp_qr_time_tracking /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+
+klon z innego branchu niż main(np. ulepszona_wersja)
+git clone -b ulepszona_wersja git@github.com:karase28/mrp_qr_time_tracking.git
+
+logi ODOO18
+# typowe lokalizacje – sprawdź która istnieje
+sudo tail -n 200 /var/log/odoo18/odoo.log
+
+
+--wyszukiwanie plikow
+grep -r "logfile" /etc/odoo* 2>/dev/null
+# albo
+sudo cat /etc/odoo/odoo.conf | grep -E "logfile|log_level"
+
+
+Czyszczenie informacji o module w bazie:
+UPDATE ir_module_module SET state = 'uninstalled' WHERE name = 'mrp_qr_time_tracking';
+DELETE FROM ir_model_data WHERE module = 'mrp_qr_time_tracking';
+
+
+
+wejście do shell'a odoo18:
+sudo systemctl stop odoo18
+
+sudo -u odoo /opt/odoo18/.venv/bin/python /opt/odoo18/odoo-bin shell -c /etc/odoo18.conf -d db_odoo18_oi_s

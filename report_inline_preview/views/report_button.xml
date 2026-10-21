@@ -5,15 +5,15 @@
         <field name="inherit_id" ref="stock.view_picking_form"/>
         <field name="arch" type="xml">
             <xpath expr="//header" position="inside">
-                <button name="%(stock.action_report_delivery)d"
-                        type="action"
-                        class="btn-primary"
+                <!-- Podgląd WZ (inline) -->
+                <button type="object"
+                        name="action_print_inline_wz"
                         string="Podgląd WZ"
-                        context="{'url': '/report/inline/stock.report_deliveryslip/' + str(active_id)}"/>
-                <button name="%(stock.action_report_delivery)d"
-                        type="action"
-                        string="Pobierz PDF"
-                        context="{'url': '/report/download/stock.report_deliveryslip/' + str(active_id)}"/>
+                        class="btn-primary"/>
+                <!-- Pobierz WZ (download) -->
+                <button type="object"
+                        name="action_print_download_wz"
+                        string="Pobierz PDF"/>
             </xpath>
         </field>
     </record>

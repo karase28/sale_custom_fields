@@ -1,0 +1,14 @@
+pliki konfiguracyjen z odoo18 w kalatlogach /opt, /etc
+
+
+
+
+git@github.com:OCA/manufacture.git
+
+git clone git@github.com:OCA/manufacture.git ;
+sudo cp -r manufacture.git /opt/odoo18/custom_addons/ ;
+sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
+sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
+sudo systemctl restart odoo18 
+sudo rm -fr ~/manufacture.git/ ;
+sudo rm -fr /opt/odoo18/custom_addons/manufacture.git/ ;

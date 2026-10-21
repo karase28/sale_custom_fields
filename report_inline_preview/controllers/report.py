@@ -1,34 +1,20 @@
-from odoo.addons.web.controllers.report import ReportController
-from odoo.http import request, route, content_disposition
+from odoo import models
 
-class ReportControllerInline(ReportController):
+class StockPicking(models.Model):
+    _inherit = "stock.picking"
 
-    @route(['/report/inline/<string:reportname>/<string:docids>'], type='http', auth='user')
-    def report_inline(self, reportname, docids=None, **data):
-        """Renderuje PDF i pokazuje go w przeglądarce (inline)"""
-        report = request.env["ir.actions.report"]._get_report_from_name(reportname)
-        pdf_content, _ = report._render_qweb_pdf([int(x) for x in docids.split(",")])
+    def action_print_inline_wz(self):
+        """Podgląd WZ w przeglądarce"""
+        return {
+            "type": "ir.actions.act_url",
+            "url": "/report/inline/stock.report_deliveryslip/%s" % self.id,
+            "target": "new",
+        }
 
-        return request.make_response(
-            pdf_content,
-            headers=[
-                ("Content-Type", "application/pdf"),
-                ("Content-Length", len(pdf_content)),
-                ("Content-Disposition", "inline; filename=%s.pdf" % reportname),
-            ],
-        )
-
-    @route(['/report/download/<string:reportname>/<string:docids>'], type='http', auth='user')
-    def report_download_force(self, reportname, docids=None, **data):
-        """Klasyczne pobieranie raportu"""
-        report = request.env["ir.actions.report"]._get_report_from_name(reportname)
-        pdf_content, _ = report._render_qweb_pdf([int(x) for x in docids.split(",")])
-
-        return request.make_response(
-            pdf_content,
-            headers=[
-                ("Content-Type", "application/pdf"),
-                ("Content-Length", len(pdf_content)),
-                ("Content-Disposition", content_disposition("%s.pdf" % reportname)),
-            ],
-        )
+    def action_print_download_wz(self):
+        """Pobierz WZ jako PDF"""
+        return {
+            "type": "ir.actions.act_url",
+            "url": "/report/download/stock.report_deliveryslip/%s" % self.id,
+            "target": "self",
+        }
