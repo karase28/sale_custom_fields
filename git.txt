@@ -412,11 +412,10 @@ ip -a
 ip address
 jarek@odoo-se
 
-
 sudo systemctl stop odoo18
 sudo rm -fr ~/mrp_qr_time_tracking/ ;
 sudo rm -fr /opt/odoo18/custom_addons/mrp_qr_time_tracking/ ;
-git clone git@github.com:karase28/mrp_qr_time_tracking.git ;
+git clone -b v.2.0-dev git@github.com:karase28/mrp_qr_time_tracking.git ;
 sudo cp -r mrp_qr_time_tracking /opt/odoo18/custom_addons/ ;
 sudo chown -R odoo18:odoo18 /opt/odoo18/custom_addons/ ;
 sudo chmod -R 775 /opt/odoo18/custom_addons/ ;
@@ -446,3 +445,17 @@ wejście do shell'a odoo18:
 sudo systemctl stop odoo18
 
 sudo -u odoo /opt/odoo18/.venv/bin/python /opt/odoo18/odoo-bin shell -c /etc/odoo18.conf -d db_odoo18_oi_s
+
+
+-----git - 
+tworzenie nowego branch'a:
+git checkout -b nazwa_nowego_brancha
+wypchnięcie nowego brancha do chmury GITHUB:
+git push -u origin/nazwa_nowego_brancha
+Jeżeli wszysytko OK po testach brancha możemy scalić ze stabilną wersją, przechodzimy do main--> git checkout main i :
+git merge nazwa_nowego_brancha
+wypchnięcie do chmury
+git push
+
+sprawdzenie składni xml:
+"python3 -c "from lxml import etree; etree.parse('/opt/odoo18/custom_addons/mrp_qr_time_tracking/report/mrp_production_qr_templates.xml'); print('XML OK')"
